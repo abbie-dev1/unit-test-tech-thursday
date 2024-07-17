@@ -1,0 +1,43 @@
+img {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.Logo
+{
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Form
+{
+    margin-top: 15%;
+}
+
+.loginBtn
+{
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+p{
+    text-decoration-line: underline;
+    cursor: pointer;
+    
+    //text-decoration: underline;
+}
+p:hover{
+    color: rgb(69, 184, 69);
+}
+
+
+@media screen and (min-width: 875px) 
+  { 
+    .container {
+     margin: 0 auto;
+     float: none;
+}}
